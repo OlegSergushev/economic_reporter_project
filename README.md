@@ -9,7 +9,7 @@
 - [Что умеет прямо сейчас?](#features)
 - [Как выглядит отчет?](#example-output)
 
-## Что это за проект?(#what-is-this-project)
+## Что это за проект?#what-is-this-project
 
 Economic Data Reporter — это консольный инструмент на Python для обработки и анализа макроэкономических данных из CSV файлов.
 
