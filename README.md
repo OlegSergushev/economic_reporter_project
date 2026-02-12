@@ -25,18 +25,18 @@ Economic Data Reporter — это консольный инструмент на
 5. Выводит аккуратную таблицу в консоль
 
 ## Структура проекта
----
-economic_reporter/
-├── economic_reporter/          # Основной пакет
+```bash
+economic_data_reporter/
+├── economic_reporter/         # Основной пакет
 │   ├── cli.py                 # Парсинг аргументов командной строки
 │   ├── reader.py              # Чтение и обработка CSV файлов
 │   ├── processors.py          # Процессоры для разных отчетов
 │   ├── formatter.py           # Форматирование таблиц и вывод
 │   └── main.py                # Точка входа
-├── tests/                     # Тесты (pytest, 96% покрытие)
+├── tests/                     # Тесты (pytest)
 ├── data/                      # Примеры CSV файлов
-├── docs/                      # Документация и скриншоты
+├── docs/                      # Cкриншоты
 ├── setup.py                   # Установка пакета
 └── README.md                  # Вы здесь
----
+```
 
